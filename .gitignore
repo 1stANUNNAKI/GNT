@@ -1,0 +1,60 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# Node.js & Next.js
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+out/
+frontend/out/
+.npm
+*.tsbuildinfo
+next-env.d.ts
+
+# Secrets & Environment Files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+id_rsa
+id_ed25519
+
+# SQLite Local Database
+*.db
+*.sqlite
+*.sqlite3
+gnt.db
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

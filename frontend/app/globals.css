@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0d1117;
+  --foreground: #c9d1d9;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Cyber Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0d1117;
+}
+::-webkit-scrollbar-thumb {
+  background: #30363d;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8b5cf6;
+}
+
+/* Neo-Brutalist Grid Background Pattern */
+.bg-cyber-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(48, 54, 61, 0.35) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(48, 54, 61, 0.35) 1px, transparent 1px);
+}
+
+/* Glow effects */
+.glow-brand {
+  box-shadow: 0 0 25px rgba(139, 92, 246, 0.3);
+}
+.glow-safe {
+  box-shadow: 0 0 25px rgba(16, 185, 129, 0.3);
+}
+.glow-crit {
+  box-shadow: 0 0 25px rgba(239, 68, 68, 0.3);
+}
