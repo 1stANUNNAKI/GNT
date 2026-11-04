@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/homepage-preview.png" alt="GNT — Home Page Preview" width="100%" />
+</p>
+
 # 🛡️ GitHub Noob Toolkit (GNT) — الدرع الوقائي والمساعد الذكي للمطورين (النسخة العربية)
 
 <div align="center">
